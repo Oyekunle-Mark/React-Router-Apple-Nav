@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 import Navigation from "./components/Navigation";
@@ -20,11 +20,19 @@ const StyledNavigation = styled.div`
     font-size: 14px;
   }
 
+  a:hover {
+    color: rgba(235, 235, 235, 0.616);
+  }
+
   background: rgba(3, 4, 5, 0.815);
 
   img {
     width: 24px;
     height: 24px;
+  }
+
+  .active {
+    color: rgba(235, 235, 235, 0.616);
   }
 `;
 
@@ -32,16 +40,18 @@ function App() {
   return (
     <nav>
       <StyledNavigation>
-        <Link to="/">
+        <NavLink activeClassName="active" to="/">
           <img
             src="https://image.flaticon.com/icons/svg/179/179309.svg"
             alt="apple-logo"
           />
-        </Link>
+        </NavLink>
 
         <Navigation data={data} />
 
-        <Link to="/support">Support</Link>
+        <NavLink activeClassName="active" to="/support">
+          Support
+        </NavLink>
       </StyledNavigation>
 
       <SubNavigation data={data} />

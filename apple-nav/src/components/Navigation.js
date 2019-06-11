@@ -1,12 +1,16 @@
 import React from "react";
 import Prop from "prop-types";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navigation({ data }) {
   const links = data.map(link => (
-    <Link key={link.id} to={`/${link.title.toLowerCase()}`}>
+    <NavLink
+      activeClassName="active"
+      key={link.id}
+      to={`/${link.title.toLowerCase()}`}
+    >
       {link.title}
-    </Link>
+    </NavLink>
   ));
   return <div>{links}</div>;
 }
