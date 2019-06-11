@@ -24,7 +24,7 @@ const StyledNavigation = styled.div`
     color: rgba(235, 235, 235, 0.616);
   }
 
-  background: rgba(3, 4, 5, 0.815);
+  background: rgba(0, 0, 0, 0.897);
 
   img {
     width: 24px;
