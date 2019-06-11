@@ -20,6 +20,7 @@ module.exports = {
     "react/jsx-filename-extension": 0,
     "quotes": 0,
     "comma-dangle": 0,
-    "jsx-a11y/anchor-is-valid": 0
+    "jsx-a11y/anchor-is-valid": 0,
+    "react/jsx-no-undef": 0
   }
 };

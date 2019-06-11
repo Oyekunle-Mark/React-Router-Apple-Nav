@@ -290,42 +290,42 @@ const navLinksData = [
         id: "apple-tv-app",
         title: "Apple TV app",
         imageUrl:
-          "https://www.apple.com/v/tv/home/g/images/home/apple_tv_app_dark__blle10nnpq3m_large.svg",
+          "https://image.flaticon.com/icons/svg/94/94238.svg",
         new: true
       },
       {
         id: "apple-tv+",
         title: "Apple TV+",
         imageUrl:
-          "https://www.apple.com/v/tv/home/g/images/home/apple_tv_plus_dark__fntbqaxjuouy_large.svg",
+          "https://image.flaticon.com/icons/svg/167/167704.svg",
         new: true
       },
       {
         id: "apple-tv-4k",
         title: "Apple TV 4K",
         imageUrl:
-          "https://www.apple.com/v/tv/home/g/images/home/apple_tv_dark__ern1bz8tkwqe_large.svg",
+          "https://image.flaticon.com/icons/svg/17/17856.svg",
         new: false
       },
       {
         id: "apple-tv-hd",
         title: "Apple TV HD",
         imageUrl:
-          "https://www.apple.com/v/tv/home/g/images/home/apple_tv_dark__ern1bz8tkwqe_large.svg",
+          "https://image.flaticon.com/icons/svg/644/644523.svg",
         new: false
       },
       {
         id: "airplay",
         title: "AirPlay",
         imageUrl:
-          "https://www.apple.com/v/tv/home/g/images/home/airplay_dark__dqiw3rzeujma_large.svg",
+          "https://image.flaticon.com/icons/svg/916/916019.svg",
         new: false
       },
       {
         id: "accessories",
         title: "Accessories",
         imageUrl:
-          "https://www.apple.com/v/tv/home/g/images/home/accessories_dark__dybfk40y28om_large.svg",
+          "https://image.flaticon.com/icons/svg/1838/1838639.svg",
         new: false
       }
     ]
@@ -384,10 +384,6 @@ const navLinksData = [
         new: false
       }
     ]
-  },
-  {
-    id: 7,
-    title: "Support"
   }
 ];
 
